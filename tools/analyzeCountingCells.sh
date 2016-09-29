@@ -3,7 +3,7 @@
 if [ $# != 2 ]; then
 	echo -ne "Arguments Error.\n"
 	echo -ne "Usage:\n"
-	echo -ne "\t$0 <ResultsDirectory> <OutputFile><\n"
+	echo -ne "\t$0 <ResultsDirectory> <OutputFile>\n"
 	exit 7
 
 elif [ ! -d $1 ]; then
