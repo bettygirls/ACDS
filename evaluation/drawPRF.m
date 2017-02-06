@@ -31,7 +31,7 @@ for i = 3:length(idsResults)
         title(titlename,'FontName','Times');
         legend_handle=legend('Precision','Recall','F-measure');
         set(legend_handle,'Location','SouthWest','FontName','Times');
-        set(gca,'XGrid','on','XTickLabel',{'Canny','ITS','Otsu','Sauvola','MET','Kmeans','Ours1','Ours2','Ours3'},'FontName','Times');
+        set(gca,'XGrid','on','XTickLabel',{'Canny','ITS','Otsu','Sauvola','MET','Kmeans','Ours1','Ours2','Ours3'},'FontName','Times','FontSize',15);
         set(gcf,'paperpositionmode','auto');
         grid;
         print('-dtiff','-r1000',[InputResults, strcat('prf-',titlename,'.tif')]);

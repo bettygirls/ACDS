@@ -41,7 +41,7 @@ for i = 3:length(idsResults)
         set(legend_handle,'Location','SouthWest','FontName','Times');
         xlabel('Recall','FontName','Times');
         ylabel('Precision','FontName','Times');
-        set(gca,'FontName','Times');
+        set(gca,'FontName','Times','FontSize',15);
         set(gcf,'paperpositionmode','auto');
         grid;
         % (r,p) for single binarization by threshold=expectation+10
