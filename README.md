@@ -1,7 +1,7 @@
 ACDS
 ====
 
-Automatic Cells Detection and Segmentation.
+Automatic Cell Detection and Segmentation.
 
 Instructions
 ============
@@ -29,7 +29,7 @@ Usage
 
 #### Single Cell Detection and Segmentation
 
-1. Put the microscopic images with single cell in `./DATA/MicroscopicImages/single/` folder;
+1. Put the microscopic images with a single cell in `./DATA/MicroscopicImages/single/` folder;
 2. Run `./batch_watershed_single.m` to detect and segment the cell into `./RESULTS/single/` folder with the running time records in `./RESULTS/single.time`.
 
 #### Multiple Cells Detection and Segmentation
@@ -40,12 +40,15 @@ Usage
 References
 ==========
 
-[1] Radhakrishna Achanta, Sheila Hemami, Francisco Estrada and Sabine Susstrunk, "Frequency-tuned Salient Region Detection," in IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2009.
+[1] Radhakrishna Achanta, Sheila Hemami, Francisco Estrada and Sabine Susstrunk. Frequency-tuned Salient Region Detection. IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2009.
 
 Copyright
 ==========
 
-This software is free for use in research projects. If you publish results obtained using this software, please use this citation.
+This software is free for use in research projects. If you publish results obtained using this software, please use this citation:
+
+Haiyong Zheng, Nan Wang, Zhibin Yu, Zhaorui Gu, Bing Zheng. Robust and automatic cell detection and segmentation from microscopic images of non-setae phytoplankton species. IET Image Processing, 2017, DOI: 10.1049/iet-ipr.2017.0127.
+
 
 Contact
 =======
