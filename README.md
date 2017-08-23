@@ -45,7 +45,7 @@ References
 Copyright
 ==========
 
-This software is free for use in research projects. If you publish results obtained using this software, please use this citation:
+This code is free for use in research projects. If you publish results obtained using this code, please consider citing relevant paper:
 
 Haiyong Zheng, Nan Wang, Zhibin Yu, Zhaorui Gu, Bing Zheng. Robust and automatic cell detection and segmentation from microscopic images of non-setae phytoplankton species. IET Image Processing, 2017, DOI: 10.1049/iet-ipr.2017.0127.
 
